@@ -55,12 +55,12 @@ async function getUsers(username:string) {
     console.log(getUser)
 }
 
-// insertUser("akhildhsdfsdfsdfimxsdsdfsdfsdffdsfn", "akhildhimsdfan@gmail.com", "akhilsdf@1897", "Akhsdfil", "Kumsdfar")
-//     .catch((e) => console.error(e))
-//     .finally(async () => await prisma.$disconnect());
+insertUser("akhildhsdfsdfsdfimxsdsdfsdfsdffdsfn", "akhildhimsdfan@gmail.com", "akhilsdf@1897", "Akhsdfil", "Kumsdfar")
+    .catch((e) => console.error(e))
+    .finally(async () => await prisma.$disconnect());
 
-// updateUsers("akhildhsdfsdfsdfimxsdsdfsdfsdffdsfn", { firstName: "Gujsdfsdfju", lastName: "Dhisdfsdfman",email:"aksdfsdfhil@gmail.com",password:"Assdfsdfdfsdfs" })
-//     .catch((e) => console.error(e))
-//     .finally(async () => await prisma.$disconnect());
+updateUsers("akhildhsdfsdfsdfimxsdsdfsdfsdffdsfn", { firstName: "Gujsdfsdfju", lastName: "Dhisdfsdfman",email:"aksdfsdfhil@gmail.com",password:"Assdfsdfdfsdfs" })
+    .catch((e) => console.error(e))
+    .finally(async () => await prisma.$disconnect());
 
 getUsers("akhildhsdfsdfsdfimxsdsdfsdfsdffdsfn");
